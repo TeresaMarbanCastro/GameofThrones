@@ -39,9 +39,9 @@ border-bottom: solid 1px $colourGrey;
   justify-content: center;
 }
 .item__stars{
-
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .characters__house{
@@ -59,4 +59,15 @@ border-bottom: solid 1px $colourGrey;
      border-top: 10px solid #f0ad4e;
      border-left: 10px solid #f0ad4e;
      border-bottom: 10px solid transparent;
+}
+.corner__transparent{
+  position: relative;
+  top: -30px;
+  left: -30px;
+   width: 0;
+   height: 0;
+   border-right: 10px solid transparent;
+   border-top: 10px solid transparent;
+   border-left: 10px solid transparent;
+   border-bottom: 10px solid transparent;
 }

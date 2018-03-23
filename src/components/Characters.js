@@ -63,7 +63,7 @@ class Editor extends Component {
               </div>
             </li>
             <li className="characters__list__item character2">
-              <div className="characters__item item__stars"><img src={bluestar} /><img src={bluestar} /><img src={bluestar} /><img src={bluestar} /><img className="halfstar" src={halfstar} /></div>
+              <div className="characters__item item__stars"><span className="corner__transparent"></span><img src={bluestar} /><img src={bluestar} /><img src={bluestar} /><img src={bluestar} /><img className="halfstar" src={halfstar} /></div>
               <div className="characters__item"><img src={Tyrion} className="characters__img--pic"/></div>
               <div className="characters__item characters info">
                 <h6 className="characters__name">Tyrion Lannister</h6>
@@ -95,7 +95,7 @@ class Editor extends Component {
               </div>
             </li>
             <li className="characters__list__item character6">
-              <div className="characters__item"><span className="item__stars"><img src={greystar} /><img src={greystar} /><img src={greystar} /><img src={greystar} /><img src={greystar} /></span></div>
+              <div className="characters__item item__stars"><span className="corner__transparent"></span><img src={greystar} /><img src={greystar} /><img src={greystar} /><img src={greystar} /><img src={greystar} /></div>
               <div className="characters__item"><img src={Cersei} className="characters__img--pic"/></div>
               <div className="characters__item characters info">
                 <h6 className="characters__name">Cersei Lannister</h6>

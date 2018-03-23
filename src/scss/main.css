@@ -4,8 +4,8 @@
 
 .characters__btn {
   background-color: white;
-  color: #99AAC9;
-  border: solid 1px #99AAC9;
+  color: #596375;
+  border: solid 1px #596375;
   border-radius: 5px;
   padding: 15px;
   margin-left: 30px; }
@@ -26,6 +26,10 @@
   grid-row: 1;
   grid-column: 1; }
 
+.description__subtitle--info {
+  font-size: 10px;
+  color: #596375; }
+
 header {
   display: flex;
   justify-content: space-between;
@@ -33,7 +37,8 @@ header {
   align-items: center;
   position: fixed;
   width: 100vw;
-  margin-top: 0; }
+  margin-top: 0;
+  background-color: pink; }
 
 .header__container {
   background-color: #000;
@@ -79,14 +84,14 @@ header {
   height: 50px;
   display: flex;
   align-items: center;
-  background-color: #99AAC9; }
+  background-color: #596375; }
 
 .characters__menu {
   list-style-type: none;
   color: white;
   display: flex;
   align-items: center;
-  background-color: #99AAC9; }
+  background-color: #596375; }
 
 .characters__menu__item {
   padding: 5px 20px; }
@@ -108,7 +113,8 @@ header {
 
 .item__stars {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  justify-content: space-between; }
 
 .characters__house {
   font-size: 10px;
@@ -123,6 +129,17 @@ header {
   border-right: 10px solid transparent;
   border-top: 10px solid #f0ad4e;
   border-left: 10px solid #f0ad4e;
+  border-bottom: 10px solid transparent; }
+
+.corner__transparent {
+  position: relative;
+  top: -30px;
+  left: -30px;
+  width: 0;
+  height: 0;
+  border-right: 10px solid transparent;
+  border-top: 10px solid transparent;
+  border-left: 10px solid transparent;
   border-bottom: 10px solid transparent; }
 
 body {
