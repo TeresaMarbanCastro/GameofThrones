@@ -1,0 +1,134 @@
+.characters__buttons {
+  padding-left: 50px;
+  padding-top: 10px; }
+
+.characters__btn {
+  background-color: white;
+  color: #99AAC9;
+  border: solid 1px #99AAC9;
+  border-radius: 5px;
+  padding: 15px;
+  margin-left: 30px; }
+
+.characters__img--pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 60px; }
+
+.characters__list__item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  text-align: center; }
+
+.character1 {
+  grid-row: 1;
+  grid-column: 1; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+  margin-top: 0; }
+
+.header__container {
+  background-color: #000;
+  height: 70px; }
+
+.header__menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: grey;
+  padding: 5px; }
+  .header__menu div {
+    padding: 10px; }
+
+.header__logo--img {
+  width: 40px;
+  padding-right: 5px;
+  border-right: lightgrey solid 1px; }
+
+.header__title--container {
+  border-right: lightgrey solid 1px;
+  padding-right: 5px; }
+
+.header__bell {
+  display: flex; }
+
+.header__bell--img {
+  height: 5px; }
+
+.header__bell--circle {
+  background-color: red;
+  width: 5px;
+  height: 5px;
+  border-radius: 20px;
+  border: 1px solid white; }
+
+.characters__container {
+  height: 100vh;
+  background-color: white;
+  padding-top: 70px; }
+
+.characters__navigation {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background-color: #99AAC9; }
+
+.characters__menu {
+  list-style-type: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  background-color: #99AAC9; }
+
+.characters__menu__item {
+  padding: 5px 20px; }
+
+.characters__list__container {
+  padding-left: 50px;
+  margin-top: 20px; }
+
+.characters__list__item {
+  width: 50vw;
+  border-bottom: solid 1px #3D4554; }
+
+.characters__item {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.item__stars {
+  display: flex;
+  flex-direction: row; }
+
+.characters__house {
+  font-size: 10px;
+  color: grey; }
+
+.corner {
+  position: relative;
+  top: -30px;
+  left: -30px;
+  width: 0;
+  height: 0;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #f0ad4e;
+  border-left: 10px solid #f0ad4e;
+  border-bottom: 10px solid transparent; }
+
+body {
+  font-family: sans-serif;
+  background-color: white; }
+
+* {
+  margin: 0;
+  padding: 0; }

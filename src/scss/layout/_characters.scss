@@ -1,0 +1,62 @@
+.characters__container{
+  height: 100vh;
+  background-color: white;
+  padding-top: 70px;
+}
+.characters__navigation{
+  height: 50px;
+  display: flex;
+  align-items: center;
+background-color: $colourLightBlue;
+
+}
+.characters__menu{
+  list-style-type: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  background-color: $colourLightBlue;
+}
+.characters__menu__item {
+  padding:  5px 20px;
+}
+
+.characters__list__container{
+  padding-left: 50px;
+    margin-top: 20px;
+}
+
+.characters__list__item{
+  width: 50vw;
+border-bottom: solid 1px $colourGrey;
+}
+
+.characters__item{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.item__stars{
+
+  display: flex;
+  flex-direction: row;
+}
+
+.characters__house{
+  font-size: 10px;
+  color: grey;
+}
+
+.corner{
+    position: relative;
+    top: -30px;
+    left: -30px;
+     width: 0;
+     height: 0;
+     border-right: 10px solid transparent;
+     border-top: 10px solid #f0ad4e;
+     border-left: 10px solid #f0ad4e;
+     border-bottom: 10px solid transparent;
+}
