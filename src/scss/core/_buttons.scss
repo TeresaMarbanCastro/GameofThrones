@@ -1,6 +1,14 @@
 .characters__buttons{
   padding-left: 50px;
   padding-top: 10px;
+  @media all and (max-width: 444px){
+    display: flex;
+    flex-direction: column;
+  }
+}
+.characters__buttons a{
+  color: $colourLightBlue;
+
 }
 .characters__btn{
   background-color: white;
@@ -9,4 +17,9 @@
   border-radius: 5px;
   padding: 15px;
   margin-left: 30px;
+  @media all and (max-width: 894px){
+    font-size: 0.7em;
+    width: 101px;
+    height: 50px;
+  }
 }

@@ -1,0 +1,38 @@
+.description__container{
+  width: 50vw;
+  @media all and (max-width: 600px){
+    width: 100vw;
+  }
+}
+.description__character{
+  padding-right: 40px;
+  padding-left: 80px;
+  padding-top: 70px;
+  display: flex;
+}
+.description__info{
+  margin-left: 50px;
+  @media all and (max-width: 479px){
+    display: flex;
+    flex-direction: column;
+  }
+}
+.desciption__list{
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+.description__list--item{
+  padding: 10px;
+  color: $colourLightBlue;
+}
+.description__list--item:hover{
+  border-bottom: solid 2px lightblue;
+}
+
+.description__info--block{
+  display: flex;
+}

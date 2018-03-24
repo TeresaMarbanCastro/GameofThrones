@@ -1,4 +1,19 @@
 .description__subtitle--info{
   font-size: 10px;
   color: $colourLightBlue;
+  padding-left: 5px;
+}
+.description__subtitle{
+  align-self: center;
+}
+.description__text{
+  font-size: 12px;
+  color: $colourLightBlue;
+  padding: 50px;
+  padding-top: 20px;
+  line-height: 20px;
+  text-align: justify;
+}
+.characters__name{
+  font-size: 14px;
 }

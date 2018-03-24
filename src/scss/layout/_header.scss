@@ -10,7 +10,7 @@ header{
 }
 .header__container{
   background-color: $colourBlack;
-  height: 70px;
+  height: 50px;
 }
 .header__menu{
   display: flex;
@@ -26,7 +26,7 @@ header{
 .header__logo--img{
   width: 40px;
   padding-right: 5px;
-    border-right: lightgrey solid 1px;
+  border-right: lightgrey solid 1px;
 }
 .header__title--container{
   border-right: lightgrey solid 1px;

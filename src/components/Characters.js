@@ -10,47 +10,20 @@ import greystar from '../images/greystar.png';
 import halfstar from '../images/halfstar.png';
 
 class Editor extends Component {
-  constructor(props){
-    super(props);
-
-    this.handleFeelingsChange = this.handleFeelingsChange.bind(this);
-    // this.handleFormSubmit = this.handleFormSubmit.bind(this);
-    this.state = {
-      selectedOption: 'happy'
-    }
-
-
-  }
-
-
-  handleFeelingsChange(event) {
-    this.setState({
-      selectedOption: event.target.value
-    })
-  }
-
-  // handleFormSubmit (formSubmitEvent) {
-  //   formSubmitEvent.preventDefault();
-  //
-  //   console.log('You have selected:', this.state.selectedOption);
-  // }
-
-
   render() {
     return (
-      <div className="characters__container">
+      <section className="characters__container">
         <nav className="characters__navigation">
           <ul className="characters__menu">
-            <li className="characters__menu__item">Favoritos</li>
-            <li className="characters__menu__item">Listado de casas</li>
-            <li className="characters__menu__item">Personajes secundarios</li>
+            <li className="characters__menu__item"><a href="">Favoritos</a></li>
+            <li className="characters__menu__item"><a href="">Listado de casas</a></li>
+            <li className="characters__menu__item"><a href="">Personajes secundarios</a></li>
           </ul>
         </nav>
         <div className="characters__buttons">
-          <button className="characters__btn">Top(2)</button>
-          {/* Counter */}
-          <button className="characters__btn">Sin Valorar(3)</button>
-          <button className="characters__btn">Actualizados(4)</button>
+          <button className="characters__btn"><a href="">Top(2)</a></button>
+          <button className="characters__btn"><a href="">Sin Valorar(3)</a></button>
+          <button className="characters__btn"><a href="">Actualizados(4)</a></button>
         </div>
         <div className="characters__list__container">
           <ul className="characters__list">
@@ -104,7 +77,7 @@ class Editor extends Component {
             </li>
           </ul>
         </div>
-      </div>
+      </section>
     );
   }
 }

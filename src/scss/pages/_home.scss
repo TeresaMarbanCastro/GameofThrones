@@ -6,3 +6,12 @@ body {
   margin: 0;
   padding: 0;
 }
+.main__container{
+  display: flex;
+  padding-top: 50px;
+  height: 100vh;
+  background-color: white;
+  @media all and (max-width: 600px){
+    flex-direction: column;
+  }
+}
