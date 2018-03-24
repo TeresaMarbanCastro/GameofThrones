@@ -1,5 +1,6 @@
 {
-  "name": "game-of-thrones",
+  "homepage": "./",
+  "name": "GameofThrones",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
